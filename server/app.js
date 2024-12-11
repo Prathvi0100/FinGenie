@@ -2,10 +2,10 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
-const router = require("./routes/users");
+// const router = require("./routes/users");
 const { generate } = require('./geminiAPI');
 
-const errorHandler = require("./middlewares/errorHandler");
+// const errorHandler = require("./middlewares/errorHandler");
 const port = process.env.PORT || 5000;
 
 const app = express();
@@ -17,9 +17,9 @@ app.use(bodyParser.json());
 
 
 //!Routes
-app.use("/", router);
+// app.use("/", router);
 //!error handler
-app.use(errorHandler);
+// app.use(errorHandler);
 
 app.get('/', (req, res) => {
     res.send('Hello from server');
