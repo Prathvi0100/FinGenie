@@ -157,7 +157,7 @@ function Learn({ isChatOpen, setIsChatOpen }) {
         setResponse("");
         setLoading(true);
         try {
-            const res = await axios.post("https://cloud-proj.onrender.com/api/financial-assist", { query, context });
+            const res = await axios.post("https://fingenie-backend1.onrender.com/api/financial-assist", { query, context });
             setResponse(res.data);
         } catch (error) {
             console.error("Error fetching response:", error);
