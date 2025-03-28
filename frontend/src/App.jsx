@@ -25,14 +25,14 @@
 // export default App
 import PublicNavbar from './components/PublicNavbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homepage from './components/Homepage';
+import HomePage from './components/HomePage';
 import Register from './components/Register';
 function App() {
   return (
     <BrowserRouter>
       <PublicNavbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
