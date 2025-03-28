@@ -27,7 +27,6 @@ import PublicNavbar from './components/PublicNavbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Register from './components/Register';
-
 function App() {
   return (
     <BrowserRouter>

@@ -109,7 +109,6 @@ const GeminiResponse = ({ response }) => {
     };
 
     const text = convertToText(data);
-
     return (
         <div
             style={{
