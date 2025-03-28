@@ -36,7 +36,9 @@ export default function PublicNavbar() {
                     to="/"
                     className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
                   >
-                    FinGenie
+                    <strong>
+                      FinGenie
+                    </strong>
                   </Link>
                 </div>
               </div>
